@@ -1,0 +1,19 @@
+{
+  "name": "GR4D3",
+  "version": "1.0.0",
+  "description": "Bot for private use!",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "git": "^0.1.5",
+    "komada": "^0.18.1",
+    "monk": "^4.0.0",
+    "vue": "^2.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Grade1801",
+  "license": "SEE IN LICENSE.txt"
+}
