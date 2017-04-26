@@ -1,3 +1,14 @@
 # ignore config files
 config/config.json
 config/auth.json
+
+# ignore folders
+node_modules/
+
+#ignore logs
+*.log
+.*
+!.gitignore
+!.gitattributes
+≠
+.DS-Store
