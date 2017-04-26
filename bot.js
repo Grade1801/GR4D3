@@ -19,8 +19,9 @@ bot.once("ready", () => {
 });
 
 bot.on("message", message => {
-	commands.ping(message);
-	commands.slap(message);
+	if (!message.content.startsWith(config.prefix)) return;
+	commands.ping(message, config.prefix);
+	commands.slap(message, config.prefix);
 });
 
 
