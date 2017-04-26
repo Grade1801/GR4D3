@@ -1,4 +1,4 @@
-const config = require (`./../../config/config.json`);
+const config = require (`./../config/config.json`);
 
 // the ready function to share in the cli
 module.exports = () => {
