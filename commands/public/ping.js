@@ -6,3 +6,4 @@ module.exports = (message, prefix) => {
 };
 
 // Test commit and push to Grade branch
+// test2 with autologin on github
