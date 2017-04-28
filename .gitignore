@@ -4,6 +4,7 @@ config/auth.json
 
 # ignore folders
 node_modules/
+.git/
 
 #ignore logs
 *.log
